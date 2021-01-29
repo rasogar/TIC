@@ -1,0 +1,30 @@
+body{
+    background-image: url("iglesu.jfif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+}
+h1{
+    padding-top : 50px;
+    text-align: center;
+    margin-bottom: 25px;
+    text-shadow: -5px 5px 4px white;}
+    
+    main{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+}
+main>img{
+    width: 100%;}
+img{
+    transition: all 0.5s ease;
+    
+}
+
+
+img:hover{
+     transform:rotate(10deg) scale(0.8);
+    border:10px dotted black; 
+}
