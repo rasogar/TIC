@@ -1,0 +1,47 @@
+html{
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: cadetblue;
+}
+.contenedor {
+    background-color: white;
+    border: 3px dotted black;
+    padding: 10px;
+    margin:  20px;
+    width: 60%;
+    margin:auto;
+    
+}
+ol{
+    list-style: upper-roman
+    
+}
+ul{
+    list-style: decimal-leading-zero}
+nav{
+    display: grid;
+    grid-auto-flow: column;
+    /*para centrar el menú*/
+    width: 60%;
+    margin: auto;
+     
+}
+
+
+nav>a{
+    padding: 20px;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.97);
+    color:white;
+    transition: all 1s ease;
+}
+nav>a:hover{
+    
+ transform: scale(1.2);
+    background-color: white;}
+h1{
+    padding-top : 50px;
+    text-align: center;
+}
+    
+        
