@@ -11,9 +11,17 @@
 <body style='margin : 0px; overflow: hidden;'>
   <a-scene embedded arjs>
     <!-- Creamos nuestro propio contenido -->
-    <a-box position="0 0.5 0" rotation="0 45 0" color="#4CC3D9"></a-box>
+    <a-box position="0.5 1 -5.5" rotation="0 0 0" height="0.05" color="#462b2b"  shadow           src="img/madera.png"></a-box>
+            <a-box position="0.5 1.5 -6" rotation="90 0 0" height="0.05" color="#462b2b" shadow src="img/madera.png"></a-box>
+          
+           <a-cylinder position="1 0.5 -5" radius="0.1" height="1"src="img/madera.png" color="#462b2b"></a-cylinder>
+            <a-cylinder position="1 0.5 -6" radius="0.1" height="1"src="img/madera.png" color="#462b2b"></a-cylinder>
+            <a-cylinder position="0 0.5 -6" radius="0.1" height="1" src="img/madera.png" color="#462b2b"></a-cylinder>
+              <a-cylinder position="0 0.5 -5" src="img/madera.png" radius="0.1" height="1" color="#462b2b" ></a-cylinder>
     <a-text position='-1 1 -1' value="Hola soy tonto!"></a-text>
-    <a-sphere position="-1 0.4 1" radius="0.5" color="#EF2D5E"></a-sphere>
+    <a-sphere position="-1 0.4 1" radius="0.5" color="#EF2D5E">
+        <a-animation attribute="position" to="0 2 0" dur="6000" easing='linear' repeat="indefinite"></a-animation>
+    </a-sphere>
     <a-cylinder position="1 1 -0.75" radius="0.35" height="1.5" color="#FFC65D"></a-cylinder>
     <a-torus position="0 0.7 0" color="#43A367" arc="360" radius="1" radius-tubular="0.07" rotation="-70 0 0">
         <a-animation attribute="rotation" to="360 0 0" dur="6000" easing='linear' repeat="indefinite"></a-animation>
